@@ -1,0 +1,29 @@
+.Box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.Btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color: green;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.Btn:hover {
+    transition: 200ms ease-in-out;
+    background-color: yellowgreen;
+}
+
+.image{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    right: 0;
+}

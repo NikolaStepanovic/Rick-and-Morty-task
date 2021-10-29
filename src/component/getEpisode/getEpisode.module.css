@@ -1,0 +1,46 @@
+.Box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 97%;
+    margin: 30px auto; 
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    width: 30%;
+    background-color: rgb(100, 91, 91);
+    height: 220px;
+    font-weight: 700;
+    border-radius: 15px;
+    line-height: 0;
+}
+
+
+
+.p{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(155, 153, 153);
+}
+
+.p1{
+    color: white;
+    font-weight: 500;
+}
+
+.title{
+    font-weight: 700;
+    color: white;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.title:hover{
+    color:red;
+}

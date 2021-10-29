@@ -1,0 +1,36 @@
+.Box{
+    width: 50%;
+    line-height: 0;
+}
+
+Select {
+    height: 30px;
+    width: 80px;
+    margin: 18px 0px 0px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Select:focus {
+    outline: none;
+}
+
+.Input{
+    cursor: pointer;
+    height: 23px;
+    width: 200px;
+    margin: 18px 0px 0px 10px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.Btn:hover {
+    transition: 300ms ease-in-out;
+    background-color: yellowgreen;
+}
+
+.p{
+    font-size: 20px;
+    font-weight: bold;
+}
